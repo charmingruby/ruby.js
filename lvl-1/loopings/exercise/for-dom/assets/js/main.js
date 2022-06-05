@@ -6,7 +6,16 @@ const elements = [
 ];
 
 const section = document.querySelector('.container');
+const div = document.createElement('div');
 
 for(let c = 0; c < elements.length ;c++) {
-
+    
+    let { tag, text } = elements[c];
+    let newTag = document.createElement(tag);
+    
+    newTag.innerHTML = text;
+    
+    div.appendChild(newTag);
 }
+
+section.appendChild(div);
