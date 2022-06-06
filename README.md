@@ -1,2 +1,2 @@
 # ruby.js
-:fallen_leaf: learning Javascript.
+:file_folder: JavaScript learning repository.
