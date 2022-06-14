@@ -29,3 +29,13 @@ function dateFormat(date){
 function leftZero(num){
     return (num >= 10 ? num : `0${num}`)
 }
+
+function showTime() {
+    const date = new Date();
+
+    return date.toLocaleTimeString('pt-BR', {
+        hour12: false
+    })
+}
+
+showTime();
