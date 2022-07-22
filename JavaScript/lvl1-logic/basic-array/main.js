@@ -11,7 +11,6 @@ console.log('Array with added elements at the beginning(unshift): ' + foods)
 const pop = foods.pop()
 console.log('Last array item removed(pop): ' + foods +', removed item:' + pop)
 
-
 const shift = foods.shift()
 console.log('First array item removed(shift): ' + foods +', removed item:' + shift)
 
